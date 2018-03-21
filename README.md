@@ -5,3 +5,6 @@
 1. [Markdown](markdown.md)
 1. [Git](git.md)
 1. [정보의 표현](data.md)
+1. [컴퓨터 구조](computer.md)
+1. [프로그램](program.md)
+1. [운영체제](os.md)
