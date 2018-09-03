@@ -14,7 +14,7 @@
 
 # 지원 프로그램 및 웹사이트
 
-- Visual Studio Code, [Bear](http://www.bear-writer.com/)
+- Visual Studio Code
 - [Deckset](https://www.decksetapp.com/)
 - Trello, Github, ...
 
