@@ -46,6 +46,7 @@
 
 ## 프로그램의 제작 - API
 
+- API = Application Programming Interface
 - 프로그래머는 **다른 사람들이 만들어놓은 수많은 프로그램**을 API를 통해 활용하여 프로그래밍을 하게 됨
   - Windows, macOS, Linux, ...
   - 웹 브라우저, 포토샵, 엑셀, ...
