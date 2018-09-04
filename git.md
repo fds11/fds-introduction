@@ -63,23 +63,25 @@
 ## Git
 
 - 사실상 표준으로 사용되는 VCS
-- 커맨드라인 명령어를 통해 사용하거나,
-- 여러 GUI 프로그램을 통해 사용할 수도 있음.
+- **커맨드라인 명령어**를 통해 사용하거나,
+- 여러 **GUI 프로그램**을 통해 사용할 수도 있음.
 
 ---
 
 ## Git 초기 설정
 
 - `git config --global user.name "<이름>"`
+  - 영문 이름을 써주세요!
 - `git config --global user.email "<이메일 주소>"`
+  - 특별한 이유가 없다면 Gmail 주소를 써주세요!
 
 ---
 
 ## Git 저장소(Repository)
 
 - Git에 의해 관리되는 디렉터리
-- `git init` 명령을 통해 특정 디렉터리를 Git 저장소로 만들 수 있음
-- 이 때 `.git` 디렉터리가 하위에 생성됨
+- `git init` 명령을 통해 특정 디렉터리를 **Git 저장소로 만들 수 있음**
+  - 이 때 `.git` 디렉터리가 하위에 생성됨
 
 ---
 
@@ -110,9 +112,9 @@
 
 - 소스코드를 편집한 후...
 - `git add <경로>`
-  - 작업 디렉터리의 특정 변경 사항을 스테이징 영역에 등록
+  - 작업 디렉터리의 특정 변경 사항을 **스테이징 영역에 등록**
 - `git commit`
-  - 스테이징 영역에 올라온 변경 사항을 영구히 보관
+  - **스테이징 영역에 올라온 변경 사항**을 영구히 보관
 - 위 과정을 반복!
 
 ---
@@ -163,18 +165,21 @@
 
 ## Git Push
 
-- Github 저장소 생성
-- `git remote add origin <Github 저장소 주소>`
-- `git push -u origin master`
-
-다음 번 부터는 `git push` 명령만 입력해도 잘 푸시됩니다.
+- 내 컴퓨터의 변경사항을 원격 저장소에 보내는 명령
+- Push 절차
+  - Github 저장소 생성 후
+  - `git remote add origin <Github 저장소 주소>`
+  - `git push -u origin master`
+  - 다음 번 부터는 `git push` 명령만 입력해도 잘 푸시됩니다.
 
 ---
 
 ## Git Pull
 
-- Github에서 파일 편집 (커밋 생성)
-- `git pull`
+- 원격 저장소의 변경사항을 내 컴퓨터로 가져오는 명령
+- Pull 절차
+  - Github에 새로운 변경사항 등록
+  - `git pull`
 
 ---
 
